@@ -34,17 +34,17 @@ body, p, h1, h2, h3, h4, h5 {
    /* set this container as a grid, with 3 columns
    the other grid will sit in the middle column, this allows for overlapping content */
    display: grid; 
-	grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
+	grid-template-columns: 1fr minmax(0, 1280px) 1fr;  
 }
 
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
-   grid-column-gap: 30px;
-   max-width: 1200px;
+   grid-column-gap: 12px;
+   max-width: 1280px;
    margin: 0 auto;
-   padding-left: 32px;
-   padding-right: 32px;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */

@@ -290,6 +290,43 @@ footer {
     align-self: end;
   }
 
+  /* Contact */
+
+#contact-info {
+    margin-top: 40px;
+  }
+
+form {
+    width: 350px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    background-color: #14213d;
+    border-radius: 10px;
+    border: solid 8px #fca311;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 0 38px #14213d;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#message {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 250px;
+    padding: 10px;
+    height: 375px;
+    border-radius: 10px;
+}
+
 /* Large Mobile (for the learn more button text) */
 @media screen and (min-width:580px) {
     .learn-more {

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="grid-con">
+        <h1 class="hidden">Billy Beer Contact</h1>
+            <a class="col-start-1 col-end-2 m-col-start-1 m-col-end-3" href="index.html"><img id="header-logo" src="images/final-logo.svg" alt="Billy Beer logo"></a>
+            <nav id="main-nav" class="m-col-start-4 m-col-end-11 l-col-start-4 l-col-end-10">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#product.html">Product</a></li>
+                    <li><a href="#contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="upper-social-media-icons l-col-start-10 l-col-end-13">
+                <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo"></a></li>
+                <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="Twitter logo"></a></li>
+            </ul>
+            <ul class="upper-social-media-icons l-col-start-10 l-col-end-13">
+                <li><img src="images/facebook-hover.svg" alt="Facebook logo"></li>
+                <li><img src="images/instagram-hover.svg" alt="Instagram logo"></li>
+                <li><img src="images/twitter-hover.svg" alt="Twitter logo"></li>
+            </ul>
+            <img id="hamburger-menu" class="menu col-start-4 col-end-5" src="images/hamburger_menu.svg" alt="Hamburger menu">
+    </header>
+
+    <section id="contact-info" class="grid">
+        <h2 class="subtitle col-span-full l-col-start-2 l-col-end-12">Contact</h2>
+        <p class="body-copy col-span-full l-col-start-2 l-col-end-12">If you have any questions or concerns, you can reach us through this form.</p>
+    </section>
+
+    <section id="contact-form" class="grid">
+        <h2 class="hidden">Contact Form</h2>
+        <form class="col-span-full" action="#">
+            <input id="name" placeholder="Name" type="text">
+            <input id="email" placeholder="Email" type="email">
+            <input id="telephone" placeholder="Telephone" type="text">
+            <textarea id="message" placeholder="Message" name="message" cols="30" rows="10"></textarea>
+        </form>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

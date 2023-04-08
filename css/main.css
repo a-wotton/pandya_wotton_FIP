@@ -294,6 +294,7 @@ footer {
 
 #contact-info {
     margin-top: 40px;
+    margin-bottom: 70px;
   }
 
 form {
@@ -309,6 +310,7 @@ form {
     margin: 0 auto;
     margin-top: 50px;
     box-shadow: 0 0 0 38px #14213d;
+    margin-bottom: 50px;
 }
 
 input {
@@ -325,6 +327,26 @@ input {
     padding: 10px;
     height: 375px;
     border-radius: 10px;
+}
+
+#submit {
+    background-color: #fff;
+    margin-top: 20px;
+    color: #fca311;
+    text-decoration: none;
+    background-color: #14213d;
+    border: solid 2px #fca311;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #fca311;
+    border: solid 2px #14213d;
+    color: #14213d;
 }
 
 /* Large Mobile (for the learn more button text) */
@@ -400,6 +422,40 @@ input {
     #footer-logo {
         max-width: 225px;
     }
+
+    form {
+        width: 714px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    input {
+        width: 290px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    #name {
+        margin-right: 320px;
+    }
+
+    #telephone {
+        margin-left: 10px;
+    }
+
+    #message {
+        width: 600px;
+        height: 175px;
+    }
+
+    #submit {
+        align-self: flex-end;
+        margin-left: auto;
+        margin-right: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 /* Desktop Size */
@@ -454,5 +510,36 @@ input {
 
     .lower-social-media-icons {
         display: none;
+    }
+
+    form {
+        width: 1210px;
+    }
+
+    input {
+        width: 472px;
+        font-size: 18px;
+        height: 60px;
+    }
+
+    #name {
+        margin-right: 542px;
+    }
+
+    #telephone {
+        margin-left: 50px;
+    }
+
+    #message {
+        font-size: 18px;
+        width: 1010px;
+        height: 250px;
+    }
+
+    #submit {
+        width: 220px;
+        text-align: center;
+        font-size: 24px;
+        margin-right: 50px;
     }
 }

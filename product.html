@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <div id="container">
+        <header class="grid-con">
+            <h1 class="hidden">Billy Beer Homepage</h1>
+            <a class="col-start-1 col-end-2 m-col-start-1 m-col-end-3" href="index.html"><img id="header-logo"
+                    src="images/final-logo.svg" alt="Billy Beer logo"></a>
+            <nav id="main-nav" class="m-col-start-4 m-col-end-11 l-col-start-4 l-col-end-10">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#product.html">Product</a></li>
+                    <li><a href="#contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="upper-social-media-icons l-col-start-10 l-col-end-13">
+                <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo"></a></li>
+                <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="Twitter logo"></a></li>
+            </ul>
+            <ul class="upper-social-media-icons l-col-start-10 l-col-end-13">
+                <li><img src="images/facebook-hover.svg" alt="Facebook logo"></li>
+                <li><img src="images/instagram-hover.svg" alt="Instagram logo"></li>
+                <li><img src="images/twitter-hover.svg" alt="Twitter logo"></li>
+            </ul>
+            <img id="hamburger-menu" class="menu col-start-4 col-end-5" src="images/hamburger_menu.svg"
+                alt="Hamburger menu">
+        </header>
+
+        <nav id="dropdown-nav" class="menu hidden full-width-grid-con">
+            <h2 class="hidden">Mobile Navigation</h2>
+            <ul class="col-span-full">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.hmtl">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="full-width-grid-con">
+            <h2 class="hidden">Hero Image</h2>
+            <img id="hero-image" class="col-span-full" sizes="(max-width: 1280px) 100vw, 1280px" srcset="
+        images/hero_wccvjc_c_scale,w_428.jpg 428w,
+        images/hero_wccvjc_c_scale,w_788.jpg 788w,
+        images/hero_wccvjc_c_scale,w_1087.jpg 1087w,
+        images/hero_wccvjc_c_scale,w_1280.jpg 1280w" src="images/hero_wccvjc_c_scale,w_1280.jpg"
+                alt="Collection of Billy Beer products">
+
+
+        </section>
+
+        <section class="grid-con-row">
+            <h2 class="subtitle col-span-full l-col-start-2 l-col-end-12">The Original</h2>
+            <div class="grid-con-row">
+                <div class="column">
+            <img id="beer-img" class="col-span-full m-col-start-2 m-col-end-10" sizes="(max-width: 804px) 100vw, 804px"
+                srcset="
+            images/original-can.jpg 300w,
+            iamges/original-can.jpg 586w,
+            images/original-can.jpg 804w" src="images/original-can.jpg" alt="The Original">
+        </div>
+    <div class="column">
+        <a class="toggle-btn" onclick="toggleDiv('myDIV')" >Link<span class="arrow"></span></a>
+        <!-- <a onclick="toggleDiv('myDIV')">Click me</a> -->
+            <!-- <button onclick="toggleDiv('myDIV')">More Info</button> -->
+            <div class="col-span-full m-col-start-2 m-col-end-10" id="myDIV" style="display: none;">
+                <p class="body-copy col-span-full l-col-start-2 l-col-end-12">The Billy Beer Original, a pale lager made
+                    from our fresh American Barley, brewed to perfection. Made for beer lovers, by beer lovers. </p>
+                <p class="body-copy col-span-full l-col-start-2 l-col-end-12"> *Bottle only comes in original flavour.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>>
+
+        <div style="margin-top: 300px;"></div>
+        <!-- </section> -->
+        <!-- <section id="our-beer-2" class="grid-con"> -->
+
+            <h2 class="subtitle col-span-full l-col-start-2 l-col-end-12">Peach Blend</h2>
+            <div class="grid-con-row">
+                <div class="column">
+            <img id="beer-img" class="col-span-full m-col-start-2 m-col-end-10" sizes="(max-width: 804px) 100vw, 804px"
+                srcset="
+        images/peach.jpg 300w,
+        iamges/peach.jpg 586w,
+        images/peach.jpg 804w" src="images/peach.jpg" alt="The Original">
+    </div>
+    <div class="column">
+    <a onclick="toggleDiv('myDIV2')">Hii</a>        
+    <!-- <button onclick="toggleDiv('myDIV2')">More Info</button> -->
+            <div class="col-span-full m-col-start-2 m-col-end-10" id="myDIV2" style="display: none;">
+                <p class="body-copy col-span-full l-col-start-2 l-col-end-12">Nothing beats a good peach-flavoured brew,
+                    made to commemorate the revival of Billy Beer. Better yet, the peach blend uses the freshest of
+                    American peaches.</p>
+            </div>
+        </div>
+        </div>
+
+        <div style="margin-top: 300px;"></div>
+        <!-- </section> -->
+        <!-- <section id="our-beer-3" class="grid-con"> -->
+
+            <h2 class="subtitle col-span-full l-col-start-2 l-col-end-12">Cherry Blend</h2>
+            <div class="grid-con-row">
+                <div class="column">
+            <img id="beer-img" class="col-span-full m-col-start-2 m-col-end-10" sizes="(max-width: 804px) 100vw, 804px"
+                srcset="
+        images/cherry.jpg 300w,
+        iamges/cherry.jpg 586w,
+        images/cherry.jpg 804w" src="images/cherry.jpg" alt="The Original">
+    </div>
+    <div class="column">
+        <a onclick="toggleDiv('myDIV3')">fvfdv</a>
+            <!-- <button onclick="toggleDiv('myDIV3')">More Info</button> -->
+            <div class="col-span-full m-col-start-2 m-col-end-10" id="myDIV3" style="display: none;">
+                <p class="body-copy col-span-full l-col-start-2 l-col-end-12">Nothing beats a good peach-flavoured brew,
+                    made to commemorate the revival of Billy Beer. Better yet, the peach blend uses the freshest of
+                    American peaches.</p>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+        <!-- </section> -->
+
+        <div style="margin-top: 300px;"></div>
+        <footer class="grid-con">
+            <h2 class="hidden">Lower Navigation</h2>
+            <ul id="lower-navigation" class="col-span-full">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#product.html">Product</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+            <ul class="lower-social-media-icons col-start-1 col-end-3 m-col-start-1 m-col-end-5">
+                <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo"></a></li>
+                <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="Twitter logo"></a></li>
+            </ul>
+            <ul class="lower-social-media-icons col-start-1 col-end-3 m-col-start-1 m-col-end-5">
+                <li><a href="#"><img src="images/facebook-hover.svg" alt="Facebook logo"></a></li>
+                <li><a href="#"><img src="images/instagram-hover.svg" alt="Instagram logo"></a></li>
+                <li><a href="#"><img src="images/twitter-hover.svg" alt="Twitter logo"></a></li>
+            </ul>
+            <a class="col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="index.html"><img id="footer-logo"
+                    src="images/final-logo.svg" alt="Company Logo"></a>
+        </footer>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

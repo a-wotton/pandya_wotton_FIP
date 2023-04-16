@@ -21,6 +21,3 @@ function toggleDiv(id) {
   }
 
   
-$('.toggle-btn').on('click', function() {
-  $(this).toggleClass('active')
-});
